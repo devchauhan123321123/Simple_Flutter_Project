@@ -41,7 +41,9 @@ class _GenderPageState extends State<GenderPage> {
             RadioListTile<String>(
               title: const Text("Male"),
               value: "Male",
+              // ignore: deprecated_member_use
               groupValue: gender,
+              // ignore: deprecated_member_use
               onChanged: (value) {
                 setState(() {
                   gender = value!;
@@ -53,7 +55,9 @@ class _GenderPageState extends State<GenderPage> {
             RadioListTile<String>(
               title: const Text("Female"),
               value: "Female",
+              // ignore: deprecated_member_use
               groupValue: gender,
+              // ignore: deprecated_member_use
               onChanged: (value) {
                 setState(() {
                   gender = value!;
